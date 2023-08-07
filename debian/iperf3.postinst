@@ -1,0 +1,27 @@
+#!/bin/sh
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	# create iperf3 group/user
+	if ! getent group iperf3 >/dev/null 2>&1; then
+    		addgroup --system --quiet iperf3
+	fi
+	if ! getent passwd iperf3 >/dev/null 2>&1; then
+    		adduser --system --quiet --ingroup iperf3	\
+			--no-create-home --home /nonexistent	\
+			iperf3
+	fi
+
+fi
+
+db_get iperf3/start_daemon
+if [ "$RET" = 'true' ] ; then
+
+	#DEBHELPER#
+
+fi
+
+exit 0

@@ -1,0 +1,36 @@
+# iperf3 package's debconf template translation template
+# Copyright (C) 2021 Roberto Lumbreras
+# This file is distributed under the same license as the iperf3 package.
+# Roberto Lumbreras, 2021
+# Paulo Henrique de Lima Santana (phls) <phls@debian.org>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iperf3_3.11-3\n"
+"Report-Msgid-Bugs-To: iperf3@packages.debian.org\n"
+"POT-Creation-Date: 2021-06-27 19:24+0200\n"
+"PO-Revision-Date: 2022-11-30 19:30-0300\n"
+"Last-Translator: Paulo Henrique de Lima Santana (phls) <phls@debian.org>\n"
+"Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 42.0\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Start Iperf3 as a daemon automatically?"
+msgstr "Iniciar o Iperf3 automaticamente como um daemon?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Choose this option if Iperf3 should start automatically as a daemon, now and "
+"at boot time."
+msgstr ""
+"Escolha esta opção se o Iperf3 deve iniciar automaticamente como um daemon, "
+"agora e no momento da inicialização."

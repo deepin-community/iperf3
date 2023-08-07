@@ -1,0 +1,44 @@
+# Mesajele în limba română pentru pachetul iperf3.
+# Romanian translation of iperf3.
+# Copyright © 2023 Roberto Lumbreras
+# This file is distributed under the same license as the iperf3 package.
+# Roberto Lumbreras, 2021
+#
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2023.
+#
+# Cronologia traducerii fișierului „iperf3”:
+# Traducerea inițială, făcută de R-GC, pentru versiunea iperf3 3.12-1(2021-06-27).
+# Actualizare a traducerii pentru versiunea Y, făcută de X, Y(anul).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iperf3 3.12-1\n"
+"Report-Msgid-Bugs-To: iperf3@packages.debian.org\n"
+"POT-Creation-Date: 2021-06-27 19:24+0200\n"
+"PO-Revision-Date: 2023-02-21 10:03+0100\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && "
+"n%100<=19) ? 1 : 2);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Start Iperf3 as a daemon automatically?"
+msgstr "Doriți ca Iperf3 să fie pornit automat ca demon?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Choose this option if Iperf3 should start automatically as a daemon, now and at "
+"boot time."
+msgstr ""
+"Alegeți această opțiune dacă Iperf3 ar trebui să pornească automat ca un "
+"daemon, acum și la pornire."

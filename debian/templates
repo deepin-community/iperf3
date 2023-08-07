@@ -1,0 +1,6 @@
+Template: iperf3/start_daemon
+Type: boolean
+Default: false
+_Description: Start Iperf3 as a daemon automatically?
+ Choose this option if Iperf3 should start automatically as a daemon,
+ now and at boot time.

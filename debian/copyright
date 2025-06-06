@@ -3,7 +3,7 @@ Upstream-Name: iperf3
 Source: http://software.es.net/iperf/
 
 Files: *
-Copyright: 2014-2023, The Regents of the University of California,
+Copyright: 2014-2024, The Regents of the University of California,
  through Lawrence Berkeley National Laboratory (subject to receipt of any
  required approvals from the U.S. Dept. of Energy).  All rights reserved.
 License: BSD-3-clause-iperf
@@ -108,7 +108,7 @@ Copyright: 1999-2003, The Board of Trustees of the University of Illinois
 License: NCSA
 
 Files: aclocal.m4 *Makefile.in
-Copyright: 1992-2022 Free Software Foundation, Inc.
+Copyright: 1992-2024 Free Software Foundation, Inc.
 License: FSF-permissive1
  This file is free software; the Free Software Foundation
  gives unlimited permission to copy and/or distribute it,
@@ -120,13 +120,13 @@ License: FSF-permissive1
  PARTICULAR PURPOSE.
 
 Files: configure
-Copyright: 1992-2021 Free Software Foundation, Inc.
+Copyright: 1992-2023 Free Software Foundation, Inc.
 License: FSF-permissive2
  This configure script is free software; the Free Software Foundation
  gives unlimited permission to copy, distribute and modify it.
 
 Files: config/compile config/depcomp config/ltmain.sh config/missing config/test-driver
-Copyright: 1999-2022 Free Software Foundation, Inc.
+Copyright: 1999-2024 Free Software Foundation, Inc.
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -179,16 +179,14 @@ License: public-domain-1
  Created: 1993-05-16
  Public domain.
 
-Files: config/config.*
-Copyright: 1992-2021 Free Software Foundation, Inc.
+Files: config/ax_pthread.m4
+Copyright: 2008 Steven G. Johnson <stevenj@alum.mit.edu>, 2011 Daniel Richard G. <skunk@iSKUNK.ORG>,
+ 2019 Marc Stevens <marc.stevens@cwi.nl>
 License: GPL-3+
- This file is free software; you can redistribute it and/or modify it
- under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 3 of the License, or
- (at your option) any later version.
- .
- On Debian systems, the complete text of version 3 of the GNU General
- Public License can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files: config/config.*
+Copyright: 1992-2024 Free Software Foundation, Inc.
+License: GPL-3+
 
 Files: docs/*
 Copyright: 2014-2019, ESnet
@@ -211,6 +209,15 @@ License: GPL-2
  .
  On Debian systems, the complete text of version 2 of the GNU General
  Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This file is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the complete text of version 3 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-3'.
 
 License: NCSA
  Permission is hereby granted, free of charge, to any person                  

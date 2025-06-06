@@ -3,13 +3,14 @@ Description: SCTP workaround for kfreebsd
  then iperf3 fails to compile because the lack of the library.
  .
  This patch moves the search for the library before kernel headers checks
+ and of course it should be removed once Freebsd gets the library.
 Author: Roberto Lumbreras <rover@debian.org>
 Forwarded: no
-Index: iperf3-3.12/configure.ac
+Index: iperf3-3.18/configure.ac
 ===================================================================
---- iperf3-3.12.orig/configure.ac	2022-12-01 18:35:05.415897604 +0100
-+++ iperf3-3.12/configure.ac	2022-12-01 18:35:05.415897604 +0100
-@@ -113,9 +113,10 @@
+--- iperf3-3.18.orig/configure.ac	2025-02-24 08:01:56.625356587 +0100
++++ iperf3-3.18/configure.ac	2025-02-24 08:01:56.621356659 +0100
+@@ -136,9 +136,10 @@
  # Check for SCTP support
  if $try_sctp; then
  AC_CHECK_HEADERS([sys/socket.h])
@@ -21,7 +22,7 @@ Index: iperf3-3.12/configure.ac
  		 AC_CHECK_TYPES([struct sctp_assoc_value], [], [],
  				[[#include <netinet/sctp.h>]]),
  		 [],
-@@ -124,6 +125,7 @@
+@@ -147,6 +148,7 @@
  #endif
  ])
  fi

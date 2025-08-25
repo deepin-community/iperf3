@@ -3,7 +3,7 @@ Upstream-Name: iperf3
 Source: http://software.es.net/iperf/
 
 Files: *
-Copyright: 2014-2024, The Regents of the University of California,
+Copyright: 2014-2025, The Regents of the University of California,
  through Lawrence Berkeley National Laboratory (subject to receipt of any
  required approvals from the U.S. Dept. of Energy).  All rights reserved.
 License: BSD-3-clause-iperf
@@ -189,7 +189,7 @@ Copyright: 1992-2024 Free Software Foundation, Inc.
 License: GPL-3+
 
 Files: docs/*
-Copyright: 2014-2019, ESnet
+Copyright: 2014-2025, ESnet
 License: BSD-3-clause
 
 Files: src/portable_endian.h
@@ -246,7 +246,7 @@ License: NCSA
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
- NONINFRINGEMENT. IN NO EVENT SHALL THE CONTIBUTORS OR COPYRIGHT 
+ NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT 
  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
  ARISING FROM, OUT OF OR IN CONNECTION WITH THE

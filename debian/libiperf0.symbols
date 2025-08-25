@@ -11,6 +11,8 @@ libiperf.so.0 libiperf0 #MINVER#
  MEGA_UNIT@Base 3.0.7
  Nread@Base 3.0.7
  Nread_no_select@Base 3.18
+ Nrecv@Base 3.19.1
+ Nrecv_no_select@Base 3.19.1
  Nsendfile@Base 3.0.7
  Nwrite@Base 3.0.7
  TERA_RATE_UNIT@Base 3.6
@@ -151,6 +153,7 @@ libiperf.so.0 libiperf0 #MINVER#
  iperf_errexit@Base 3.0.7
  iperf_exchange_parameters@Base 3.0.7
  iperf_exchange_results@Base 3.0.7
+ iperf_exit@Base 3.19.1
  iperf_free_stream@Base 3.0.7
  iperf_free_test@Base 3.0.7
  iperf_get_control_socket@Base 3.0.7
@@ -242,6 +245,7 @@ libiperf.so.0 libiperf0 #MINVER#
  iperf_send_mt@Base 3.16
  iperf_server_listen@Base 3.0.7
  iperf_server_worker_run@Base 3.16
+ iperf_set_control_keepalive@Base 3.19.1
  iperf_set_control_socket@Base 3.0.7
  iperf_set_dont_fragment@Base 3.11
  iperf_set_mapped_v4@Base 3.13
@@ -271,6 +275,7 @@ libiperf.so.0 libiperf0 #MINVER#
  iperf_set_test_fqrate@Base 3.6
  iperf_set_test_get_server_output@Base 3.0.7
  iperf_set_test_idle_timeout@Base 3.11
+ iperf_set_test_json_callback@Base 3.19.1
  iperf_set_test_json_output@Base 3.0.7
  iperf_set_test_json_stream@Base 3.17.1
  iperf_set_test_logfile@Base 3.7
@@ -303,6 +308,7 @@ libiperf.so.0 libiperf0 #MINVER#
  iperf_set_test_zerocopy@Base 3.0.7
  iperf_set_verbose@Base 3.0.7
  iperf_setaffinity@Base 3.0.7
+ iperf_signormalexit@Base 3.19.1
  iperf_stats_callback@Base 3.0.7
  iperf_strerror@Base 3.0.7
  iperf_tcp_accept@Base 3.0.7

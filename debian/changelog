@@ -1,3 +1,11 @@
+iperf3 (3.19.1-1) unstable; urgency=medium
+
+  * New upstream version, including fixes for CVE-2025-54349, CVE-2025-54350.
+    (Closes: #1110376)
+  * Updated standards.
+
+ -- Roberto Lumbreras <rover@debian.org>  Mon, 04 Aug 2025 21:21:14 +0200
+
 iperf3 (3.18-2) unstable; urgency=low
 
   * Fix FTBFS with GCC-15 (Closes: #1096847)

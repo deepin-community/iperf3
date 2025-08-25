@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Roberto Lumbreras <rover@debian.org>
 Build-Depends: debhelper-compat (= 13), libssl-dev, libsctp-dev [linux-any], po-debconf
 Rules-Requires-Root: no
-Standards-Version: 4.7.1
+Standards-Version: 4.7.2
 Homepage: http://software.es.net/iperf/
 
 Package: iperf3
